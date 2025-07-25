@@ -87,7 +87,7 @@ body {
 
 .menu .brand {
     font-size: 1.3em;
-    color: #333;
+    color: #535353;
 }
 
 .menu ul {
@@ -100,8 +100,8 @@ body {
 .menu a {
     display: block;
     text-decoration: none;
-    background-color: #000;
     color: crimson;
+    background-color: #13e9e9;
     text-align: center;
     padding: 5px;
     text-transform: uppercase;
