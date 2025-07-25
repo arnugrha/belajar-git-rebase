@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rie Shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+
+    <div class="container">
+
+
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Rie Shop</h2>
+                <p class="sub-heading">Laptop & Computer</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 2500K</h4>
+                <p class="item">Mac Book</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 1500K</h4>
+                <p class="item">Sony Laptop</p>
+            </div>
+        </header>
+        
+        <!-- Navbar -->
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>Rie Shop</h1>
+            </div>
+
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">⚙️</div>
+                <h3>Servis Laptop</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magnam corporis tempora laborum consectetur rem.</p>
+            </div>
+
+            <div class="service">
+                <div class="icon">💻</div>
+                <h3>Jual Laptop</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magnam corporis tempora laborum consectetur rem.</p>
+            </div>
+
+            <div class="service">
+                <div class="icon">🎙️</div>
+                <h3>Poscast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magnam corporis tempora laborum consectetur rem.</p>
+            </div>
+
+            <div class="service">
+                <div class="icon">👕</div>
+                <h3>Merchandise</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magnam corporis tempora laborum consectetur rem.</p>
+            </div>
+        </section>
+
+        <div class="gallery">
+            <h2>Gallery</h2>
+            <img src="img/gallery.png" >
+            <img src="img/gallery.png" >
+            <img src="img/gallery.png" >
+            <img src="img/gallery.png" >
+            <img src="img/gallery.png" >
+            <img src="img/gallery.png" >
+            <img src="img/gallery.png" >
+            <img src="img/gallery.png" >
+            <img src="img/gallery.png" >
+            <img src="img/gallery.png" >
+        </div>
+    </div>
+
+
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('slide');
+        });
+    </script>
+  </body>
+</html>
